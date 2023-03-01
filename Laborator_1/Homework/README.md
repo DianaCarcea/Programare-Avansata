@@ -1,0 +1,4 @@
+Programul începe cu partea de verificare a argumentului. Aste presupune ca daca exista un argument dat la linia de comanda se testeaza daca acesta este unul valid prin executarea metodei ValidArgument.
+Dupa ce se verifica daca parametrul este unul întreg, se construieste matricea de tip Latin Square prin metoda setLatinSquare. În cadrul acestei metode se construieste matricea mat de la 1 la n în felul urmator: elementul curent al matricei este restul împartirii numarului nr_line + 1 (pentru evitarea obtinerii valorii de 0, caz în care se incrementeaza valoarea cu 1) la n+1 (pentru a avea valori doar între 1 si n).
+Daca valoarea parametrului este mai mica decât 30.000, se afiaeaza matricea construita prin intermediul metodei setLatinSquare, respectiv reprezentarea fiecarei linii si coloane a matricei prin metoda getLinesAndColumns.
+Altfel, se va afisa doar timpul de rulare a aplicatiei.
