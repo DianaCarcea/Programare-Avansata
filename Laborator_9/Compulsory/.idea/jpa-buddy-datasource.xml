@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JpbDataSourceConfig">
+    <data-sources>
+      <data-source id="00b0e6d2-39e6-4b90-aad6-5cbe1d0660ea" name="compulsory 9" url="jdbc:postgresql://localhost/albums" driverClass="org.postgresql.Driver" />
+    </data-sources>
+    <data-source-infos>
+      <data-source-info id="00b0e6d2-39e6-4b90-aad6-5cbe1d0660ea" persistence-unit-name="myPersistenceUnit" />
+    </data-source-infos>
+  </component>
+</project>
